@@ -15,38 +15,6 @@ for item in range(len(f)-1):
 		f[item] += ' ' + f[item+1]
 		f.remove(f[item+1])
 
-'''
-# This code solve the problem of having punctuations appended to words
-# when running. For example 'english:' and 'english' that might be consider
-# as different because of the punctuation mark
-
-punctuations = ['.', ':', ':', "'", ',', '...', '?', '!', '~']
-g = []
-for elt in f:
-    for mark in punctuations:
-        if mark in elt:
-            z = elt.split(mark)
-            new = z[0] + z[1]
-            g.append(new)
-
-print g
-
-################################################################
-
-for elt in f:
-    for let in elt[len(elt)-2:]:
-        if let in string.punctuation:
-            elt = elt.replace(let, "")
-
-for elt in f:
-    for let in elt[:1]:
-        if let in string.punctuation:
-            elt = elt.replace(let, "")
-
-print f
-
-'''
-
 # count and display results of counted words
 myDict = {}
 linenum = -1
