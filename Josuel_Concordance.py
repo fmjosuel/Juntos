@@ -1,7 +1,8 @@
 # Author: Josuel Musambaghani
 
 # library that breaks text into parts
-import nltk
+# note that the module nltk needs to be installed first in the directory
+import nltk 
 import string
 
 with open('c:/Python27/fileIn.txt', 'r') as in_file:
