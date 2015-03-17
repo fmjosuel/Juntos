@@ -20,18 +20,21 @@ In this project, we assumed that data from the input file are simple; they only 
 As talking about punctuations, it is to be noted that a library called `nltk` had to prealably be installed in the directory for our python compiler to deal with punctuation marks.  
 
 ### Formatting
+
 The program (the code itself) is structured into three parts: 
-1. Part1: **Getting data from the user** (From the first file)
+
+1. Part 1: **Getting data from the user** (From the first file)
 
 After importing the necessary modules (`nltk` and `string`), this part prompts the user to enter a file name from which data should be read.
 
 Once data are accessed, the operation `nltk.sent_tokenize(text)` breaks the data into elements with resect to punctuations marks. The output here is a list of strings, each string representing a sentence from the input file. 
 
 ##### Note: 
+
 - The `nltk` module needs to prealably installed in the PC (directory) for the code to run.
 - The `nltk` presents some weaknesses when it comes to sequence sentences containing parenthesis. This minor issue were solved in the next part (Manipulating data).
 
-2. Part2: **Manipulating data**
+2. Part 2: **Manipulating data**
 
 This part essentially does three main tasks:
 * Firstly, the code solve the issue of the `nltk`'s weakness faced to parenthesis.
@@ -39,7 +42,7 @@ This part essentially does three main tasks:
 * Thirdly, the part count appearances of each word and stores it in a dictionary. 
     
 
-3. Part3: Results: **Writing ouptput to the second file.**
+3. Part 3: Results: **Writing ouptput to the second file.**
 
 This last part focuses on three main tasks: 
 - It sort by key every word in the dictionary called `myDict`
