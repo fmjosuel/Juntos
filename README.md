@@ -14,9 +14,8 @@ The main language used in this project is ***Python***. The repository (on GitHu
 - **Design Goals**
 The goal of our project is to write a code that will be  able to get input from one file (in my case, I used a `.txt` file), to read and manipulate data from the input, and at the end, the code must write, in an empty file, an ordered (sorted) list of words that shows the number of occurences and the specific location of the word at each occurence.  
 - **Detailed Usage**
-In this project, we assume that data from the input file are simple, only containing punctuation marks and spaces. 
+In this project, we assumed that data from the input file are simple; they only contain punctuation marks and spaces. 
 As talking about punctuations, it is to be noted that a library called `nlpr` had to prealably be installed in the directory for our python compiler to deal with punctuation marks.  
-- **Developper info**
 - **Colophon**
 
 ## Formatting
