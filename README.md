@@ -3,7 +3,7 @@
 ###### Email: <joshlixmus@gmail.com>
 ===
 
-### Informations about the Program
+### Description
 
 - **Project Title: Concordance**
 - **Overview**
