@@ -3,7 +3,7 @@
 ###### Email: <joshlixmus@gmail.com>
 ===
 
-### Contents
+### Informations about the Program
 
 - **Project Title: Concordance**
 - **Overview**
@@ -21,7 +21,7 @@ As talking about punctuations, it is to be noted that a library called `nltk` ha
 
 ### Formatting
 The program (the code itself) is structured into three parts: 
-1. Part1: *** Getting data from the user *** (From the first file)
+1. Part1: **Getting data from the user** (From the first file)
 
 After importing the necessary modules (`nltk` and `string`), this part prompts the user to enter a file name from which data should be read.
 
@@ -31,7 +31,7 @@ Once data are accessed, the operation `nltk.sent_tokenize(text)` breaks the data
 - The `nltk` module needs to prealably installed in the PC (directory) for the code to run.
 - The `nltk` presents some weaknesses when it comes to sequence sentences containing parenthesis. This minor issue were solved in the next part (Manipulating data).
 
-2. Part2: *** Manipulating data ***
+2. Part2: **Manipulating data**
 
 This part essentially does three main tasks:
 * Firstly, the code solve the issue of the `nltk`'s weakness faced to parenthesis.
@@ -39,10 +39,10 @@ This part essentially does three main tasks:
 * Thirdly, the part count appearances of each word and stores it in a dictionary. 
     
 
-3. Part3: Results: *** Writing ouptput to the second file.***
+3. Part3: Results: **Writing ouptput to the second file.**
 
 This last part focuses on three main tasks: 
-- It sort by key every word in the dictionary `myDict`
+- It sort by key every word in the dictionary called `myDict`
 - Next, the code prompts the user to enter the name of a file where to write the ouptut. 
 - And then, finally the code writes the results in the file entered by the user.
 
