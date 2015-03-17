@@ -12,7 +12,7 @@ A 'concordance' is an alphabetical list of the words present in a text with a co
 - **Example usage**
 A concordance is used in books to show how many times each word occurs, and the specific location where the word may be found.
 - **Getting Started**
-The main language used in this project is ***Python***. The repository (on GitHub) containing the code for the project is called **Juntos** and the python file itself in the repository is called `JosuelJuntos.py`. 
+The main language used in this project is ***Python***. The repository (on GitHub) containing the code for the project is called **Juntos** and the python file itself in the repository is called `Josuel_Concordance.py`. 
 - **Design Goals**
 The goal of our project is to write a code that will be  able to get input from one file (in my case, I used a `.txt` file), to read and manipulate data from the input, and at the end, the code must write, in an empty file, an ordered (sorted) list of words that shows the number of occurences and the specific location of the word at each occurence.  
 - **Detailed Usage**
