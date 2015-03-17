@@ -21,6 +21,13 @@ As talking about punctuations, it is to be noted that a library called `nltk` ha
 
 ### Formatting
 
+Prealably, two modules has to be imported for the Program to compile:
+
+`import nltk`
+
+`import string`
+
+
 The program (the code itself) is structured into three parts: 
 
 1. Part 1: **Getting data from the user** (From the first file)
