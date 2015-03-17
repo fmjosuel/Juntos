@@ -25,8 +25,8 @@ As talking about punctuations, it is to be noted that a library called `nlpr` ha
 The project mainly used `for` loops. Outside documentations did not apply. 
 However, some materials were helpful to double-check some skills that may have been forgotten about libraries and modules. We have:
 * ***Think Python***: a book by Allen B. Downey 
-    Link: <http://www.greenteapress.com/thinkpython/>
+    - Link: <http://www.greenteapress.com/thinkpython/>
 * Notes from my Python Class
-    Link <http://glassy-filament-680.appspot.com/> 
+    - Link <http://glassy-filament-680.appspot.com/> 
 
 
