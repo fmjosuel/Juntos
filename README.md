@@ -6,7 +6,8 @@
 ## Contents 
 - **Project Title: Concordance**
 - **Overview**
-A concordance is a ...
+A 'concordance' is an alphabetical list of the words present in a text with a count of how often each word appears and citations of where each word appears in the text (e.g. page number).
+
 - **Example usage**
 A concordance is used in books to show how many times each word occurs, and the specific location where the word may be found.
 - **Getting Started**
@@ -16,10 +17,12 @@ The goal of our project is to write a code that will be  able to get input from 
 - **Detailed Usage**
 In this project, we assumed that data from the input file are simple; they only contain punctuation marks and spaces. 
 As talking about punctuations, it is to be noted that a library called `nlpr` had to prealably be installed in the directory for our python compiler to deal with punctuation marks.  
-- **Colophon**
 
 ## Formatting
-
+The program (the code itself) is structured into three parts: 
+1. Part1: Getting data from the user (From the first file)
+2. Part2: Manipulating data 
+3. Part3: Results: Writing ouptput to the second file.
 ## Supporting documentation
 The project mainly used `for` loops. Outside documentations did not apply. 
 However, some materials were helpful to double-check some skills that may have been forgotten about libraries and modules. We have:
