@@ -1,7 +1,7 @@
 # Josuel Musambaghani
 # Juntos Assignment - CONCORDANCE
 # ==============================================================================
-''' PROMPT:
+''' PROMPT: ASSIGNMENT
 A 'concordance' is an alphabetical list of the words present in a text with a
 count of how often each word appears and citations of where each word appears
 in the text (e.g. page number). Write a program - in the programming language
