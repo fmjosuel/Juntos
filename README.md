@@ -23,9 +23,9 @@ As talking about punctuations, it is to be noted that a library called `nltk` ha
 
 Prealably, two modules has to be imported for the Program to compile:
 
-`import nltk`
+`import nltk` helps to deal with the input from the file.
 
-`import string`
+`import string` helps to manipulate punctuations.
 
 
 The program (the code itself) is structured into three parts: 
